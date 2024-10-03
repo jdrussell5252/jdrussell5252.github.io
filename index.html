@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
+  display: grid; /* Enable Grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+          grid-template-rows: auto; /* Rows will adjust automatically */
+            height: 100vh; /* Full height of the viewport */
+            gap: 20px; /* Space between columns */
+            margin: 0; /* Remove default margin */
   box-sizing: border-box;
 }
+
+
 
 /* Create three unequal columns that floats next to each other */
 .column {
