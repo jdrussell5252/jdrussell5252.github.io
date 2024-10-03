@@ -8,12 +8,19 @@
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -26,20 +33,26 @@
 </head>
 <body>
 
-<h2>Two Equal Columns</h2>
+<h2>Three Unequal Columns</h2>
 
 <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column left" style="background-color:#aaa;">
     <h2>Column 1</h2>
     <p>Some text..</p>
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column middle" style="background-color:#bbb;">
     <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column right" style="background-color:#ccc;">
+    <h2>Column 3</h2>
     <p>Some text..</p>
   </div>
 </div>
 
 </body>
+</html>
+
 <style>
 img {
   width: 100%;
@@ -48,7 +61,7 @@ img {
 </head>
 <body>
 <h1>Hello Worldddd</h1>
-<img src="THR promo cover.png" alt="jake" width = "300" height="200">
+<img src="THR promo cover.png" alt="jake" width = "30" height="20">
 <p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
