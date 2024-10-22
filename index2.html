@@ -4,79 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 20px;
-                background-color: #f4f4f4;
-            }
-            header {
-                text-align: center;
-                padding: 20px;
-            }
-            section {
-                flex: 1;
-                width: 100%;
-                margin: 20px 0;
-                padding: 20px;
-                background-color: #fff;
-                border-radius: 5px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-                margin-right: 10px;
-            }
-            h2 {
-                color: #333;
-                font-size: 18px;
-                text-align: center;
-            }
-            ul {
-                list-style-type: none;
-                padding: 0;
-            }
-            li {
-                margin: 5px 0;
-            }
-            .profile-card {
-                width: 100%;
-
-                margin-top: 10px; /* Top margin added */
-            }
-            img {
-                width: 100%; /* Ensure the image fits within its container */
-            }
-            .container {
-                display: flex;
-                width: 100%;
-            }
-            .button-container {
-                display: flex;
-                justify-content: center;
-                margin-top: 10px;
-            }
-            .button {
-                width: 150px;
-                margin: 0 5px;
-                padding: 5px;
-                font-size: small;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     
     <body>
-        <!-- Sidebar -->
-        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-            <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-            <a href="index2.html" class="w3-bar-item w3-button">Menu</a> <!-- Updated link to the main page -->
-            <a href="about.html" class="w3-bar-item w3-button">About Me</a> <!-- Updated link -->
+        <!-- Tabbed Navigation -->
+        <div class="w3-bar w3-teal">
+            <a href="index2.html" class="w3-bar-item w3-button tablink">Menu</a>
+            <a href="about.html" class="w3-bar-item w3-button tablink">About Me</a>
+            <a href="PastProjects.html" class="w3-bar-item w3-button tablink">Past Projects</a>
         </div>
-  
-        <!-- Page Content -->
-        <div class="w3-teal">
-            <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
-            <div class="w3-container"></div>
-        </div>
-  
+
         <script>
             function w3_open() {
                 document.getElementById("mySidebar").style.display = "block";
@@ -100,16 +38,14 @@
             </div>
                     
             <div class = "w3-col m8 l9">
-                <h2>Jake Russell
+                <h1>Jake Russell
                     <p>Computer Information Systems</p>
-                </h2>  
-                <div class = "w3-row">
-                    <div class = "w3-col m12 l12">
-                        <div class = "button-container">
-                            <button class = "button w3-button w3-teal" onclick="scrollToFooter()">Contact Me</button>
-                        </div>
-                    </div> 
-                </div>  
+                </h1>  
+                <div class = "button-container">
+                    <button class = "button w3-button w3-teal" onclick="scrollToFooter()">
+                        <strong>Contact Me</strong>
+                    </button>
+                </div> 
             </div>
         </div>
 
@@ -158,7 +94,7 @@
                             <p>Brief description of your responsibilities and achievements.</p>
                         </li>
                         <li>
-                            <strong>Job Titlee</strong> - Company Name, Year
+                            <strong>Job Title</strong> - Company Name, Year
                             <p>Brief description of your responsibilities and achievements.</p>
                         </li>
                         <!-- Add more jobs as needed -->
@@ -167,12 +103,10 @@
             </div>
         </div>
 
-        <footer id="footer" style="background-color: #333; color: white; text-align: center; padding: 20px; position: relative;">
-            <h2>Contact Information</h2>
+        <footer id="footer">
+            <strong>Contact Information</strong>
             <p>Email: russelljd2@jacks.sfasu.edu</p>
             <p>Phone: (936) 715-8633</p>
         </footer>
     </body>
-    
 </html>
-

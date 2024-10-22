@@ -1,0 +1,74 @@
+/* pastProjects.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: left;
+}
+
+section {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.profile-card {
+    width: 250px; /* Fixed width for the profile card */
+    margin: auto; /* Reduced margin for closer spacing */
+    margin-top: 40px;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 100%; /* Ensure the image fits within its container */
+}
+
+.profile-card a {
+    display: block; /* Make the entire card clickable */
+}
+
+.profile-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+}
+
+.w3-button {
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.w3-button:hover {
+    background-color: #ff0000; /* Change this to your desired hover color */
+}
+
+.w3-button.active {
+    background-color: #ff0000; /* Highlight color for active button */
+    color: white; /* Text color for active state */
+}
