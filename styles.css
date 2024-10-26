@@ -45,11 +45,6 @@ li {
     margin: 5px 0;
 }
 
-.profile-cardB {
-    width: 100%;
-    margin-top: 10px; /* Top margin added */
-}
-
 img {
     width: 100%; /* Ensure the image fits within its container */
 }
@@ -71,15 +66,19 @@ img {
     font-size: medium;
 }
 
+.profile-cardB {
+    width: 20%;
+    margin: auto;
+}
+
 .profile-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 200px;
-    margin-top: 10px 0;
+    margin: 15px;
 }
 
-.profile-cardA:hover {
+.profile-cardB:hover {
     transform: scale(1.05); /* Slightly enlarge the card on hover */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
 }
