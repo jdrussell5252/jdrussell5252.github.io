@@ -71,6 +71,19 @@ img {
     font-size: medium;
 }
 
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    margin-top: 10px 0;
+}
+
+.profile-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+}
+
 footer {
     background-color: teal;
     color: white;
