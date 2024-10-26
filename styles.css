@@ -45,6 +45,11 @@ li {
     margin: 5px 0;
 }
 
+.profile-card {
+    width: 100%;
+    margin-top: 10px; /* Top margin added */
+}
+
 img {
     width: 100%; /* Ensure the image fits within its container */
 }
@@ -66,6 +71,15 @@ img {
     font-size: medium;
 }
 
+footer {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin: 10px 0;
+}
+
 .profile-caard {
     width: 20%;
     margin: auto;
@@ -81,13 +95,4 @@ img {
 .profile-caard:hover {
     transform: scale(1.05); /* Slightly enlarge the card on hover */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
-}
-
-footer {
-    background-color: teal;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    margin: 10px 0;
 }
