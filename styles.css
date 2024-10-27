@@ -81,15 +81,15 @@ footer {
 }
 
 .profile-caard {
-    width: 20%;
-    margin: auto;
+    width: 250px; /* Fixed width for the profile card */
+    margin: auto; /* Reduced margin for closer spacing */
+    margin-top: auto;
 }
 
 .profile-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 15px;
 }
 
 .profile-caard:hover {
