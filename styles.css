@@ -81,7 +81,7 @@ footer {
 }
 
 .profile-caard {
-    width: 250px; /* Fixed width for the profile card */
+    width: 150px; /* Fixed width for the profile card */
     margin: auto; /* Reduced margin for closer spacing */
     margin-top: auto;
 }
