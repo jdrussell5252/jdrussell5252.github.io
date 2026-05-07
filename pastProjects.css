@@ -36,14 +36,14 @@ li {
 }
 
 .project-container {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
 .project-row {
-    width: 100%;
+    width: 50%;
     display: flex;
     background: white;
     border-radius: 18px;
