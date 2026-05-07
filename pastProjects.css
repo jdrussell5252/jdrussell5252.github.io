@@ -68,13 +68,13 @@ li {
     object-fit: cover;
 }
 
-.project-info {
-    padding: 25px;
-}
-
 .project-info h4 {
     font-size: 24px;
     margin-top: 0;
+}
+
+.project-info {
+    padding: 25px;
 }
 
 .project-info p {
