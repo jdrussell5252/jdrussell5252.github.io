@@ -54,6 +54,12 @@ img {
     width: 75%; /* Ensure the image fits within its container */
 }
 
+.profile-caard {
+    width: 250px; /* Fixed width for the profile card */
+    margin: auto; /* Reduced margin for closer spacing */
+    margin-top: auto;
+}
+
 .container {
     display: flex;
     width: 100%;
