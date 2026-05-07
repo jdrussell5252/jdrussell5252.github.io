@@ -24,7 +24,7 @@
             <button class="w3-button" onclick="filterProjects('Unity')"><strong>Unity</strong></button>
         </div>
 
-        <div class="profile-container">
+        <!--<div class="profile-container">
 
             <div class="profile-card w3-card" data-category="Java">
                 <a href="https://github.com/SFA-Courses/program04-in-fa24-jdrussell5252" target="_blank">
@@ -111,7 +111,41 @@
             </div>      
 
             <!-- Add more project cards with appropriate data-category attributes -->
-        </div>
-        <script src="filter.js"></script>
+        </div>-->
+
+            <div class="project-container">
+
+                <div class="project-row w3-card" data-category="Java">
+                    <a href="https://github.com/SFA-Courses/program04-in-fa24-jdrussell5252" target="_blank">
+                        <img src="java.png" alt="Java infection simulation project">
+                    </a>
+                    <div class="project-info">
+                        <h4><b>Java Project</b></h4>
+                        <p>This Java project simulates the spread of infection in a movie theater.</p>
+                    </div>
+                </div>
+
+                <div class="project-row w3-card" data-category="Java">
+                    <a href="https://github.com/SFA-Courses/program03-in-fa24-jdrussell5252" target="_blank">
+                        <img src="java2.png" alt="Java linked list project">
+                    </a>
+                    <div class="project-info">
+                        <h4><b>Java Project</b></h4>
+                        <p>This project showcases a set data structure using a linked list.</p>
+                    </div>
+                </div>
+
+                <div class="project-row w3-card" data-category="HTML">
+                    <a href="https://github.com/jdrussell5252/jdrussell5252.github.io" target="_blank">
+                        <img src="htmlphoto.png" alt="Portfolio website project">
+                    </a>
+                    <div class="project-info">
+                        <h4><b>HTML Portfolio Website</b></h4>
+                        <p>This project is a responsive personal portfolio website built with HTML, CSS, and JavaScript to showcase my skills, projects, work experience, and education.</p>
+                    </div>
+                </div>
+
+            </div>
+const projects = document.querySelectorAll('.project-row');
     </body>
 </html>
