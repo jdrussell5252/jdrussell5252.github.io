@@ -51,11 +51,11 @@ li {
 }
 
 img {
-    width: 75%; /* Ensure the image fits within its container */
+    width: 100%; /* Ensure the image fits within its container */
 }
 
 .profile-caard {
-    width: 75%; /* Fixed width for the profile card */
+    width: 250px; /* Fixed width for the profile card */
     margin: auto; /* Reduced margin for closer spacing */
     margin-top: auto;
 }
