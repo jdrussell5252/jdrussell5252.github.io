@@ -46,12 +46,12 @@ li {
 }
 
 .profile-card {
-    width: 100%;
+    width: 250px;
     margin-top: 10px; /* Top margin added */
 }
 
 img {
-    width: 75%; /* Ensure the image fits within its container */
+    width: 100%; /* Ensure the image fits within its container */
 }
 
 .profile-caard {
