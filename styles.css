@@ -60,6 +60,17 @@ img {
     margin-top: auto;
 }
 
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-caard:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+}
+
 .container {
     display: flex;
     width: 100%;
