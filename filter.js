@@ -50,8 +50,7 @@ function filterProjects(category) {
             project.style.display = 'block';
         } 
         else {
-
-            project.dataset.category === category ?
+            project.dataset.category.includes(category) ?
                 project.style.display = 'block' :
                 project.style.display = 'none';
         }
@@ -62,8 +61,8 @@ function filterProjects(category) {
     });
 
     const activeButton = Array.from(buttons).find(button => {
-
-        return button.textContent.trim() === category || (category === 'all' && button.textContent.trim() === 'Show All');
+        return button.textContent.trim() === category || 
+               (category === 'all' && button.textContent.trim() === 'Show All');
     });
 
     if (activeButton) {
